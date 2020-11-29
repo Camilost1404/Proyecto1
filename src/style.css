@@ -4,7 +4,32 @@
 .main .services {
 }
 
-.main .news {
+.news {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    
+    
+}
+.columna{
+    display: flex;
+    flex-direction: row;
+}
+
+.imagen{
+    width: 500px;
+    height: 250px;
+}
+
+.filas{
+    width: 500px;
+    margin: 0px 10px;
+    padding: 10px;
+    background-color: rgb(30, 230, 230);
+}
+
+.columna .filas{
+
 }
 
 .main .team {
