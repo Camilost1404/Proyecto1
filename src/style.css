@@ -7,7 +7,27 @@
 .main .news {
 }
 
-.main .team {
+.team {
+    flex-direction: column;
+
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.row{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom:30px;
+}
+.teamtitle{
+    background-color: aqua;
+}
+.fotos{
+    width:150px;
+    height:200px;
+    object-fit: fill;
 }
 
 .footer {
