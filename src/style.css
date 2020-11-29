@@ -11,4 +11,53 @@
 }
 
 .footer {
+    display: flex;
+	align-items: center;
+    height: 200px;
+    background-color:rgb(30, 230, 230);
+    width: 100%;
+}
+.listacontacto {
+    list-style: none;
+    text-align: center;
+
+}
+.repositorio {
+    margin: 0px 50px;
+    width: 600px;
+
+
+}
+.contacto {
+    margin: 0px 50px;
+    width: 600px;
+    
+}
+
+.contacto a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+}
+.repositorio a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.contacto h3 {
+    text-align: center;
+    margin-left: 35px;
+}
+.repositorio p {
+    font-size: 19px;
+    font-weight:bold ;
+}
+.repositorio a:hover{
+    color: #de2a2a;
+    text-decoration: underline;
+}
+.contacto a:hover{
+    color: #de2a2a;
+    text-decoration: underline;
 }
