@@ -38,6 +38,29 @@ body {
   height: 100px;
   margin: 50px 0px;
 }
+.news {
+  display: flex;
+  flex-direction: column;
+}
+.columna {
+  display: flex;
+  flex-direction: row;
+}
+
+.imagen {
+  width: 500px;
+  height: 250px;
+}
+
+.filas {
+  width: 500px;
+  margin: 0px 10px;
+  padding: 10px;
+  background-color: rgb(30, 230, 230);
+}
+
+.columna .filas {
+}
 
 .traductor__title,
 .learn__title,
