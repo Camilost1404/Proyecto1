@@ -1,7 +1,72 @@
+body{
+
+    margin: 0 auto;
+    width: 1200px;
+
+}
+
 .header {
 }
 
-.main .services {
+.services {
+
+    background-color: white;
+    align-items: center;
+    display: flex;
+    height: 500px;
+
+}
+
+.traductor, .learn, .practice{
+
+    display: inline-block;
+    text-align: center;
+    width: 370px;
+    margin: 15px;
+    padding: 5px;
+    height: 470px;
+    background-color: rgb(30, 230, 230);
+
+}
+
+.traductor__image, .learn__image, .practice__image{
+
+    width: 300px;
+    height: 100px;
+    margin: 50px 0px;
+
+}
+
+.traductor__title, .learn__title, .practice__title{
+
+    color: #252322;
+    margin-bottom: 50px;
+
+}
+
+.traductor__description, .learn__description, .practice__description{
+
+    text-align: justify;
+    font-size: 20px;
+    margin: 0px 20px;
+    margin-bottom: 50px;
+
+}
+
+.traductor_link, .learn__link, .practice__link{
+
+    text-decoration: none;
+    color: black;
+    text-align: justify;
+
+}
+
+.traductor_link:hover, .learn__link:hover, .practice__link:hover{
+
+    font-size: 20px;
+    text-decoration: none;
+    color: #de2a2a;
+
 }
 
 .main .news {
