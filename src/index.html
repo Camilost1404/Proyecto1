@@ -1,229 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mi primera pagina web</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header class="header">
-      <section class="parte-superior">
-        <!-- inicio titulo -->
-        <div class="titulo-principal">
-          <h1 class="titulo-header">
-            Vives una nueva vida por cada idioma nuevo que hablas. Si conoces sólo un idioma, sólo vives una vez. Proverbio checo
-          </h1>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi primera pagina web</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+
+<body>
+  <header class="header">
+    <section class="parte-superior">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-info">
+        <div class="col-3">
+          <h6 class="text-white">
+            ENGLISH
+          </h6>
         </div>
-        <!-- final titulo -->
-        <nav class="navegador-menu">
-          <ul class="menu">
-            <li class="menu-item"><a href="#">Inicio</a></li>
-            <li class="menu-item"><a href="#services">Servicios</a></li>
-            <li class="menu-item"><a href="#news">Noticias</a></li>
-            <li class="menu-item"><a href="#team">Miembros</a></li>
+        <div class="container">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">INICIO<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">SERVICIOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#news">NOTICIAS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">MIEMBROS</a>
+            </li>
           </ul>
-        </nav>
-      </section>
-      <!-- inicio de la imagen -->
-      <section>
-        <img src="assets/images/ingles4.png" width="1200" height="300" alt="Imagen" />
-      </section>
-      <!-- fin de la imagen -->
-    </header>
-    <main>
-      <section class="services" id="services">
-        <div class="traductor">
-          <img src="./assets/images/LogoDeepL.png" alt="Logo Traductor DeepL" class="traductor__image" />
-          <h1 class="traductor__title">TRADUCTOR DEEPL</h1>
-          <p class="traductor__description">
-            Software experto en idiomas encargados de transmitir mensajes escritos de un idioma a otro
-          </p>
-          <a href="https://www.deepl.com/translator" class="traductor_link">Ir a DeepL >></a>
         </div>
-        <div class="learn">
-          <img src="./assets/images/learn.png" alt="Aprende Inglés" class="learn__image" />
-          <h1 class="learn__title">CURSO INGLES</h1>
-          <p class="learn__description">
-            Aprender inglés te abre muchas puertas, entra al sitio y aprende cosas de este idioma mundial
-          </p>
-          <a href="https://www.curso-ingles.com/" class="learn__link">Ir al Sitio >></a>
-        </div>
-        <div class="practice">
-          <img src="./assets/images/PracticeEnglish.png" alt="PracticeEnglish" class="practice__image" />
-          <h1 class="practice__title">PRACTICAR INGLES</h1>
-          <p class="practice__description">
-            Ademas de aprenderlo debes ponerlo en practica para que no se te vaya a olvidar, practica con IsCollective
-          </p>
-          <a href="https://es.islcollective.com/" class="practice__link">Ir a Practicar >></a>
-        </div>
-      </section>
-      <section class="news" id="news">
-        <div class="columna">
-          <div class="filas">
-            <img src="./assets/images/Noticia 1.jpg" alt="Bajo nivel de inglés" class="imagen" />
-            <h4 class="titulo">Colombia, con uno de los niveles de inglés más bajos del mundo</h4>
-            <h6 class="fuente">Tomado de: diario El tiempo</h6>
-
-            <p class="parrafo">
-              Colombia se encuentra entre los países con peor nivel de inglés en el mundo, de acuerdo con el estudio EF English
-              Proficiency Index (EPI), de la firma Education First, el cual midió el desempeño en esta lengua en 100 naciones cuya
-              lengua nativa es otra. El informe realizó un análisis del nivel de inglés de 2,2 millones de personas haciendo
-              mediciones de habilidades de lectura y comprensión auditiva. Tras esto, se dividió el nivel de dominio del idioma en
-              Muy alto, Alto, Moderado, Bajo y Muy Bajo, clasificando a cada país mediante una escala de puntuaciones, en la cual
-              la máxima calificación posible era 800.
-            </p>
-
-            <a
-              class="link"
-              href="https://www.eltiempo.com/vida/educacion/colombia-con-uno-de-los-niveles-de-ingles-mas-bajos-del-mundo-550360"
-              >Detalles de la noticia</a
-            >
-          </div>
-          <div class="filas">
-            <img src="./assets/images/Noticia 2.jpg" alt="Oferta de empleo" class="imagen" />
-            <h4 class="titulo">Ofertas de empleo: 15 mil ofertas de teletrabajo para bilingües y semibilingües</h4>
-            <h6 class="fuente">Tomado de: diario El tiempo</h6>
-            <p class="parrafo">
-              La compañía internacional Teleperformance anunció que tendrá 15 mil vacantes antes de finalizar el 2020. Los
-              colombianos que deseen trabajar desde casa pueden postularse sin importar la ciudad en la que habiten.
-              Teleperformance lleva 25 años en el país y tiene sedes físicas en Bogotá, Medellín, Barranquilla y Tunja. Asimismo,
-              tiene vinculados más de 25 mil empleados en todo el país.
-            </p>
-            <a
-              class="link"
-              href="https://www.eltiempo.com/cultura/gente/ofertas-de-empleo-15-mil-ofertas-laborales-en-teletrabajo-ofrece-teleperformance-vacantes-537393"
-              >Detalles de la noticia</a
-            >
-          </div>
-        </div>
-        <br />
-
-        <div class="columna">
-          <div class="filas">
-            <img src="./assets/images/Noticia 3.jpg" alt="Consejos" class="imagen" />
-            <h4 class="titulo">10 trucos para aprender cualquier idioma de un genio que habla 9</h4>
-            <h6 class="fuente">Tomado de: Babbel.com</h6>
-            <p class="parrafo">
-              ¿Necesitas un par de consejos para aprender idiomas que te motiven a seguir estudiando? Matthew Youlden habla nueve
-              idiomas fluidamente y entiende casi una docena más. somos testigos de sus habilidades para cambiar de idioma como un
-              camaleón cambia de color. En realidad, durante mucho tiempo ni siquiera sabía que era británico. Cuando le comenté
-              que me estaba costando muchísimo esfuerzo aprender un segundo idioma, no tardó en darme un par de consejos. Si eres
-              de los que piensa que nunca llegará a ser bilingüe, ¡más te vale tomar nota!
-            </p>
-            <a class="link" href="https://es.babbel.com/es/magazine/10-consejos-para-aprender-idiomas">Detalles de la noticia</a>
-          </div>
-
-          <div class="filas">
-            <img src="./assets/images/Noticia 4.jpg" alt="Oportunidades para programadores bilingües" class="imagen" />
-            <h4 class="titulo">¿Sabes programación y tienes buen nivel de inglés? Canadá puede ser tu destino</h4>
-            <h6 class="fuente">Tomado de: www.immigration.ca</h6>
-            <p class="parrafo">
-              Actualmente en canadá están aceptando aplicaciones de extranjeros con la experiencia y el entrenamiento adecuados
-              como Programadores Informáticos y/o Desarrolladores de Medios Interactivos, que estén buscando vivir y trabajar
-              allí,de manera acelerada, en un empleo a tiempo completo en esta profesión en Canadá. Los programas de trabajo
-              acelerados proporcionan una entrada temporal inmediata a Canadá a los candidatos calificados y sus familias en base
-              a una oferta de trabajo a tiempo completo aprobada por el gobierno, proporcional a sus calificaciones.
-            </p>
-            <a
-              class="link"
-              href="https://www.immigration.ca/es/programadores-informaticos-y-desarrolladores-de-medios-interactivos"
-              >Detalles de la noticia</a
-            >
-          </div>
-        </div>
-      </section>
-      <section class="team" id="team">
-        <h2 class="teamtitle">Work Team</h2>
-        <div class="row">
-          <div class="column">
-            <div class="card">
-              <img class="fotos" src="./assets/images/Mayra.jpg" alt="Mayra" />
-              <div>
-                <h3>Mayra A. Erazo</h3>
-                <p class="title">Biologist</p>
-                <p>Universidad del Valle</p>
-                <p>Cali-Valle</p>
-              </div>
-            </div>
-          </div>
-          <div class="column">
-            <div class="card">
-              <img class="fotos" src="./assets/images/worker.png" alt="Andres" />
-              <div>
-                <h3>Andrés C. Torres</h3>
-                <p class="title">Systems Eng.Student</p>
-                <p>Universidad Cooperativa</p>
-                <p>Loren ipsum</p>
-              </div>
-            </div>
-          </div>
-          <div class="column">
-            <div class="card">
-              <img class="fotos" src="./assets/images/Ivan.jpg" alt="Ivan" />
-              <div>
-                <h3>Iván González</h3>
-                <p class="title">Electronic Engineer</p>
-                <p>Universidad del Norte</p>
-                <p>Monteria - Córdoba</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="column">
-            <div class="card">
-              <img class="fotos" src="./assets/images/Javier.jpeg" alt="Javier" />
-              <div>
-                <h3>Javier Laiton</h3>
-                <p class="title">Industrial Engineer</p>
-                <p>Fundación Universitaria CAFAM</p>
-                <p>Bogotá D.C.</p>
-              </div>
-            </div>
-          </div>
-          <div class="column">
-            <div class="card">
-              <img class="fotos" src="./assets/images/worker.png" alt="Julian" />
-              <div>
-                <h3>Julian Manrique</h3>
-                <p class="title">Chemical Engineer</p>
-                <p>Universidad Nacional</p>
-                <p>Bogotá D.C.</p>
-              </div>
-            </div>
-          </div>
-          <div class="column">
-            <div class="card">
-              <img class="fotos" src="./assets/images/Jose.jpeg" alt="Jose" />
-              <div>
-                <h3>José Olarte</h3>
-                <p class="title">Economist</p>
-                <p>Universidad de Cartagena</p>
-                <p>Cartagena - Bolivar</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <div class="repositorio">
-        <p>ESTE ES EL PROYECTO DE LA SEMANA 1 DEL GRUPO # 196</p>
-        <a href="https://github.com/grupo196ciclo3/semana-1-196.git">GRUPO196CICLO3</a>
+      </nav>
+    </section>
+    <!-- inicio de la imagen -->
+    <section class="image">
+      <div>
+        <img src="./assets/images/ingles4.png" width="100%" height="250px" alt="Banner">
       </div>
-      <div class="contacto">
-        <h3>CONTACTENOS:</h3>
-        <ul class="listacontacto">
-          <li><a href="ivangonzalezgrc@gmail.com">Ivan Gonzalez</a></li>
-          <li><a href="laiton2395@gmail.com">Javier C Laiton</a></li>
-          <li><a href="jomiolta@gmail.com">Jose Olarte</a></li>
-          <li><a href="camitorres1404@gmail.com">Andres Torres</a></li>
-          <li><a href="jdmanriquef@gmail.com">Julian Manrique</a></li>
-          <li><a href="erazoflorezmayraa@gmail.com">Mayra Erazo</a></li>
-        </ul>
+    </section>
+    <!-- fin de la imagen -->
+  </header>
+  <main>
+    <section class="services" id="services">
+      <div class="card-columns p-3">
+        <div class="card bg-info pt-2 pl-2 pr-2">
+          <img class="card-img-top" src="./assets/images/LogoDeepL.png" alt="traductor__image" height="150px">
+          <div class="card-body">
+            <h4 class="card-title">TRADUCTOR DEEPL</h4>
+            <p class="card-text">Software experto en idiomas encargados de transmitir mensajes escritos de un idioma a
+              otro</p>
+            <a href="https://www.deepl.com/translator" class="text-white">Ir a DeepL >></a>
+          </div>
+        </div>
+        <div class="card bg-info pt-2 pl-2 pr-2">
+          <img class="card-img-top" src="./assets/images/learn.png" alt="traductor__image" height="150px">
+          <div class="card-body">
+            <h4 class="card-title">CURSO INGLES</h4>
+            <p class="card-text">Aprender inglés te abre muchas puertas, entra al sitio y aprende cosas de este idioma
+              mundial</p>
+            <a href="https://www.curso-ingles.com/" class="text-white">Ir al Sitio >></a>
+          </div>
+        </div>
+        <div class="card bg-info pt-2 pl-2 pr-2">
+          <img class="card-img-top" src="./assets/images/PracticeEnglish.png" alt="traductor__image" height="150px">
+          <div class="card-body">
+            <h4 class="card-title">TRADUCTOR DEEPL</h4>
+            <p class="card-text">Ademas de aprenderlo debes ponerlo en practica,
+              practica con IsCollective</p>
+            <a href="https://es.islcollective.com/" class="text-white">Ir a Practicar >></a>
+          </div>
+        </div>
       </div>
-    </footer>
-  </body>
+    </section>
+    <section class="bd-example" id="news">
+      <div id="carouselExampleIndicators" class="carousel slide p-3" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="https://www.eltiempo.com/vida/educacion/colombia-con-uno-de-los-niveles-de-ingles-mas-bajos-del-mundo-550360"><img class="d-block w-100" src="./assets/images/Noticia 1.jpg" alt="Bajo nivel de inglés" height="500px">
+            <div class="carousel-caption d-none d-md-block bg-info p-3"></a>
+              <h3>Colombia, con uno de los niveles de inglés más bajos del mundo</h3>
+              <h6 class="fuente">Tomado de: diario El tiempo</h6>
+              <p class="text-lefts">Colombia se encuentra entre los países con peor nivel de inglés en el mundo, de
+                acuerdo con el estudio EF English Proficiency Index (EPI), de la firma Education First, el cual midió el
+                desempeño en esta lengua en 100 naciones cuya lengua nativa es otra. El informe realizó un análisis del
+                nivel de inglés de 2,2 millones de personas haciendo mediciones de habilidades de lectura y comprensión
+                auditiva. Tras esto, se dividió el nivel de dominio del idioma en Muy alto, Alto, Moderado, Bajo y Muy
+                Bajo, clasificando a cada país mediante una escala de puntuaciones, en la cual la máxima calificación
+                posible era 800.</p>
+              <a class="link text-white"
+                href="https://www.eltiempo.com/vida/educacion/colombia-con-uno-de-los-niveles-de-ingles-mas-bajos-del-mundo-550360">Detalles
+                de la noticia >></a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="https://www.eltiempo.com/cultura/gente/ofertas-de-empleo-15-mil-ofertas-laborales-en-teletrabajo-ofrece-teleperformance-vacantes-537393"><img class="d-block w-100" src="./assets/images/Noticia 2.jpg" alt="Oferta de empleo" class="imagen"
+              height="500px"></a>
+            <div class="carousel-caption d-none d-md-block bg-info p-3">
+              <h4 class="titulo">Ofertas de empleo: 15 mil ofertas de teletrabajo para bilingües y semibilingües</h4>
+              <h6 class="fuente">Tomado de: diario El tiempo</h6>
+              <p class="text-lefts">La compañía internacional Teleperformance anunció que tendrá 15 mil vacantes antes
+                de finalizar el 2020. Los colombianos que deseen trabajar desde casa pueden postularse sin importar la
+                ciudad en la que habiten. Teleperformance lleva 25 años en el país y tiene sedes físicas en Bogotá,
+                Medellín, Barranquilla y Tunja. Asi mismo, tiene vinculados más de 25 mil empleados en todo el país.</p>
+              <a class="link text-white"
+                href="https://www.eltiempo.com/cultura/gente/ofertas-de-empleo-15-mil-ofertas-laborales-en-teletrabajo-ofrece-teleperformance-vacantes-537393">Detalles
+                de la noticia >></a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="https://es.babbel.com/es/magazine/10-consejos-para-aprender-idiomas"><img class="d-block w-100" src="./assets/images/Noticia 3.jpg" alt="Consejos" height="500px">
+            <div class="carousel-caption d-none d-md-block bg-info p-3">
+              <h4 class="titulo">10 trucos para aprender cualquier idioma de un genio que habla 9</h4>
+              <h6 class="fuente">Tomado de: Babbel.com</h6></a>
+              <p class="text-lefts">
+                ¿Necesitas un par de consejos para aprender idiomas que te motiven a seguir estudiando? Matthew Youlden
+                habla nueve idiomas fluidamente y entiende casi una docena más. somos testigos de sus habilidades para
+                camaleón cambia de color. En realidad, durante mucho tiempo ni siquiera sabía que era británico. Cuando
+                le comenté que me estaba costando muchísimo esfuerzo aprender un segundo idioma, no tardó en darme un
+                par de consejos. Si eres de los que piensa que nunca llegará a ser bilingüe, ¡más te vale tomar nota!
+              </p>
+              <a class="link text-white"
+                href="https://es.babbel.com/es/magazine/10-consejos-para-aprender-idiomas">Detalles de la
+                noticia >></a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="https://www.immigration.ca/es/programadores-informaticos-y-desarrolladores-de-medios-interactivos"><img class="d-block w-100" src="./assets/images/Noticia 4.jpg"
+              alt="Oportunidades para progrmadores bilingües" height="500px"></a>
+            <div class="carousel-caption d-none d-md-block bg-info p-3">
+              <h4 class="titulo">¿Sabes programación y tienes buen nivel de inglés? Canadá puede ser tu destino</h4>
+              <h6 class="fuente">Tomado de: www.immigration.ca</h6>
+              <p class="text-lefts"></p>
+              Actualmente en canadá están aceptando aplicaciones de extranjeros con la experiencia y el entrenamiento
+              adecuados como Programadores Informáticos y/o Desarrolladores de Medios Interactivos, que estén buscando
+              vivir y trabajar allí,de manera acelerada, en un empleo a tiempo completo en esta profesión en Canadá. Los
+              programas de trabajo acelerados proporcionan una entrada temporal inmediata a Canadá a los candidatos
+              calificados y sus familias en base a una oferta de trabajo a tiempo completo aprobada por el gobierno,
+              proporcional a sus calificaciones.</p>
+              <a class="link text-white"
+                href="https://www.immigration.ca/es/programadores-informaticos-y-desarrolladores-de-medios-interactivos">Detalles
+                de la noticia >></a>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    <section class="team" id="team">
+      <div class="card-group p-3">
+        <div class="card">
+          <img class="card-img-top w-25 ml-5 mt-3" src="./assets/images/Mayra.jpg" alt="Card image cap" height="150px">
+          <div class="card-body">
+            <h4 class="card-title">Mayra A. ErazoTitle</h4>
+            <p class="card-text">Biologist</p>
+            <p class="card-text">Universidad del Valle</p>
+            <p class="card-text">Cali-Valle</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top w-25 ml-5 mt-3" src="./assets/images/jose olarte.jpg" alt="Card image cap"
+            height="150px">
+          <div class="card-body">
+            <h4 class="card-title">José Olarte</h4>
+            <p class="card-text">Economist</p>
+            <p class="card-text">Universidad de Cartagena</p>
+            <p class="card-text">Cartagena-Bolivar</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top w-25 ml-5 mt-3" src="./assets/images/Ivan.jpg" alt="Card image cap" height="150px">
+          <div class="card-body">
+            <h4 class="card-title">Iván González</h4>
+            <p class="card-text">Electronic Engineer</p>
+            <p class="card-text">Universidad del Norte</p>
+            <p class="card-text">Monteria-Cordoba</p>
+          </div>
+        </div>
+      </div>
+      <div class="card-group p-3">
+        <div class="card">
+          <img class="card-img-top w-25 ml-5 mt-3" src="./assets/images/worker.png" alt="Card image cap" height="150px">
+          <div class="card-body">
+            <h4 class="card-title">Andrés C. Torres</h4>
+            <p class="card-text">Systems Eng. Student</p>
+            <p class="card-text">Universidad Cooperativa</p>
+            <p class="card-text">Ibague-Tolima</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top w-25 ml-5 mt-3" src="./assets/images/Javier.jpeg" alt="Card image cap"
+            height="150px">
+          <div class="card-body">
+            <h4 class="card-title">Javier Laiton</h4>
+            <p class="card-text">Industrial Engineer</p>
+            <p class="card-text">Fundación Universitaria CAFAM</p>
+            <p class="card-text">Bogotá D.C.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top w-25 ml-5 mt-3" src="./assets/images/worker.png"" alt=" Card image cap"
+            height="150px">
+          <div class="card-body">
+            <h4 class="card-title">Julian Manrique</h4>
+            <p class="card-text">Chemical Engineer</p>
+            <p class="card-text">Universidad Nacional</p>
+            <p class="card-text">Bogotá D.C.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="card-group bg-info">
+      <div class="card bg-info mt-3 ml-3 mb-3">
+        <div class="card-body m-5">
+          <h5 class="card-title">ESTE ES EL PROYECTO DE LA SEMANA 1 DEL GRUPO # 196</h5>
+          <a class="text-dark" href="https://github.com/grupo196ciclo3/semana-1-196.git">IR GRUPO196CICLO >></a>
+        </div>
+      </div>
+      <div class="card bg-info mt-3 mr-3 mb-3 pl-3 pr-3">
+        <div class="card-body">
+          <h5 class="m-3">CONTACTENOS:</h5>
+          <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-around align-items-center">
+              <a href="mailto:ivangonzalezgrc@gmail.com">Ivan Gonzalez</a>
+              <a href="mailto:camitorres1404@gmail.com">Andres Torres</a>
+            </li>
+            <li class="list-group-item d-flex justify-content-around between align-items-center">
+              <a href="mailto:laiton2395@gmail.com">Javier C Laiton</a>
+              <a href="mailto:mailto:jdmanriquef@gmail.com">Julian Manrique</a>
+            </li>
+            <li class="list-group-item d-flex justify-content-around align-items-center">
+              <a href="mailto:jomiolta@gmail.com">Jose Olarte</a>
+              <a href="mailto:erazoflorezmayraa@gmail.com">Mayra Erazo</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
